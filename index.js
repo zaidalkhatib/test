@@ -4,7 +4,7 @@ const app = expree();
 
 app.get("/",(req,res)=>
 {
-  res.send("hello")
+  res.send("hello how are you")
 })
 var port = process.env.PORT || 3002;
 
